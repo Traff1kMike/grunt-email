@@ -1,0 +1,654 @@
+---
+layout: default.hbs
+subject: Deb McCool
+---
+<span class="preheader">{{ default.prehead }}</span>
+
+<!-- Start Intro Text -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="full-text">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <table width="560" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
+                                       <tbody>
+                                          <!-- spacing -->
+                                          <tr>
+                                             <td width="100%" height="20" class="spacing">&nbsp;</td>
+                                          </tr>
+                                          <!-- End of spacing -->
+                                          <!-- content -->
+                                          <tr>
+                                             <td class="bodytext" st-content="fulltext-content">
+                                             <h2>{{ default.header_one }}</h2>
+                                                {{#with default}}
+                                                   {{#each news}}
+                                                      {{#if title}}
+                                                         <h2>{{title}}</h2>
+                                                      {{/if}}
+                                                      {{#if text}}
+                                                         <div class="news-text below">
+                                                            <p>{{text}}</p>
+                                                            
+                                                         </div>
+                                                      {{/if}}
+                                                      {{#if image}}
+                                                         <div class="align-center">
+                                                         {{#if link}}
+                                                            <a href="{{link}}" target="_blank">
+                                                         {{/if}}  
+                                                            <img src="{{../../url}}/{{image}}" alt="">
+                                                         {{#if link}}
+                                                            </a>
+                                                         {{/if}}  
+                                                         </div>
+                                                         {{else}}
+                                                         {{#if link}}
+                                                            <table class="btn btn-primary">
+                                                               <tr>
+                                                                  <td>
+                                                                     <a href="{{link}}" target="_blank">View Now</a>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                         {{/if}}  
+                                                      {{/if}}                                                     
+                                                   {{/each}}
+                                                {{/with}}
+
+                                                <h2>{{ default.soldtitle }}</h2>
+                                                <div class="news-text below">
+                                                  <p>{{ default.soldtext }}</p>
+                                                </div>
+
+                                                {{#with default}}
+                                                   {{#each soldhomes}}
+                                                    <p>{{property}}</p> 
+                                                   {{/each}}
+                                                {{/with}}
+
+                                                <img src="{{ default.url }}/{{ default.soldphoto }}" alt=""> <br><br>
+
+
+                                                {{#with default}}
+                                                   {{#each othertext}}
+                                                      {{#if title}}
+                                                         <h2>{{title}}</h2>
+                                                      {{/if}}
+                                                      {{#if text}}
+                                                         <div class="news-text below">
+                                                            <p>{{text}} {{../url}}</p>
+                                                         </div>
+                                                      {{/if}}
+                                                      {{#if image}}
+                                                         <div class="align-center">
+                                                         {{#if link}}
+                                                            <a href="{{link}}" target="_blank">
+                                                            {{else}}
+                                                            <p>
+                                                         {{/if}}  
+                                                            <img src="{{../../url}}/{{image}}" alt="">
+                                                         {{#if link}}
+                                                            </a>
+                                                            {{else}}
+                                                            </p>
+                                                         {{/if}}  
+                                                         </div>
+                                                         {{else}}
+                                                         {{#if link}}
+                                                            <table class="btn btn-primary">
+                                                               <tr>
+                                                                  <td>
+                                                                     <a href="{{link}}" target="_blank">View Now</a>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                         {{/if}}  
+                                                      {{/if}}                                                     
+                                                   {{/each}}
+                                                {{/with}}
+
+
+                                             </td>
+                                          </tr>
+                                          <!-- End of content -->
+                                       </tbody>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- end of intro text -->
+
+<!-- Start of seperator -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="seperator">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td align="center" height="20" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- End of seperator -->  
+
+<!-- Start of show banner -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="banner">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <!-- start of image -->
+                                 <td align="center" st-image="banner-image">
+                                    <div class="imgpop">
+                                       <a target="_blank" href="#"><img width="600" border="0" height="161" alt="" border="0" style="display:block; border:none; outline:none; text-decoration:none;" src="{{ default.url }}/{{default.latestimage}}" class="banner"></a>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <!-- end of image -->
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- End of show-banner --> 
+
+<!-- Start of seperator -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="seperator">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td align="center" height="20" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+<!-- End of seperator -->  
+{{#with default}}
+   {{#each listings}}
+   <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="full-text">
+      <tbody>
+         <tr>
+            <td>
+               <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tbody>
+                     <tr>
+                        <td width="100%">
+                           <table width="600" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                              <tbody>
+                                 <tr>
+                                    <td>
+                                             <!-- col 1 -->
+                                       <table width="290" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tbody>
+                                             <tr>
+                                                <td>
+                                                   <!-- start of text content table -->  
+                                                   <table width="290" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                      <tbody>
+                                                         <!-- content -->
+                                                         <tr>
+                                                            <td class="bodytext" st-content="3col-content3">
+                                                               <img src="{{image}}" class="prop-image" width="300" alt="{{title}}" />
+                                                            </td>
+                                                         </tr>
+                                                         <!-- end of content -->
+                                                      </tbody>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- end of text content table -->
+                                          </tbody>
+                                       </table>                                    
+                                       <!-- col 2 -->
+                                       <table width="290" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tbody>
+                                             <tr>
+                                                <td>
+                                                   <!-- start of text content table -->  
+                                                   <table width="290" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                      <tbody>
+                                                         <!-- content -->
+                                                         <tr>
+                                                            <td class="bodytext" st-content="3col-content3">                                                               
+                                                               <div class="latestlistingwrap">
+                                                                  <div class="price">{{price}}</div>
+                                                                  <div class="latestlisting">
+                                                                     <div class="listing-title">{{title}}</div>
+                                                                     <div class="listing-text">{{text}}</div>
+                                                                     <div class="listing-link">
+                                                                        <table class="btn btn-primary">
+                                                                           <tr>
+                                                                              <td>
+                                                                                 <a href="{{link}}" target="_blank">View Now</a>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </td>
+                                                         </tr>
+                                                         <!-- end of content -->
+                                                      </tbody>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- end of text content table -->
+                                          </tbody>
+                                       </table>
+                                       <!-- end of col 2 -->
+                                       </table>
+                                    </td>
+                                    <!-- spacing -->
+                                    <!-- end of spacing -->
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>                                                                                                                                       
+   {{/each}}
+{{/with}}
+
+<!-- Start of show banner -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="banner">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <!-- start of image -->
+                                 <td align="center" st-image="banner-image">
+                                    <div class="imgpop">
+                                       <a target="_blank" href="mailto:{{ default.email }}"><img width="600" border="0" height="161" alt="" border="0" style="display:block; border:none; outline:none; text-decoration:none;" src="{{ default.url }}/{{default.sellingimage}}" class="banner"></a>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <!-- end of image -->
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- End of show-banner --> 
+
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="footerTable" st-sortable="full-text">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" bgcolor="#262626"  cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="580" bgcolor="#262626" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <td class="border-bottom">
+                                          <!-- col 1 -->
+                                    <table width="280" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="280" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- content -->
+                                                      <tr>
+                                                         <td class="bodytext" st-content="3col-content3">
+                                                            {{ default.footertitle }}
+                                                         </td>
+                                                      </tr>
+                                                      <!-- end of content -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>                                    
+                                    <!-- col 2 -->
+                                    <table width="280" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="280" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- content -->
+                                                      <tr>
+                                                         <td class="bodytext right-align" st-content="3col-content3">                                                               
+                                                            BUSINESS HOURS: {{ default.businesshours}}
+                                                         </td>
+                                                      </tr>
+                                                      <!-- end of content -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    <!-- end of col 2 -->
+                                    </table>
+                                 </td>
+                                 <!-- spacing -->
+                                 <!-- end of spacing -->
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>     
+
+<!-- 3 Start of Columns -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="footerTable" class="footer">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="600" bgcolor="#262626" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <!-- col 1 -->
+                                    <table width="214" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="214" align="center" border="0" cellpadding="10" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- content -->
+                                                      <tr>
+                                                         <td  class="bodytext" st-content="3col-content3">
+                                                            AFTER HOURS: {{default.afterhours}}<br>
+                                                            MOBILE: {{default.mobile}}<br>
+                                                            FAX: {{default.fax}}
+                                                         </td>
+                                                      </tr>
+                                                      <!-- end of content -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    <!-- spacing -->
+                                    <table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+                                       <tbody>
+                                          <tr>
+                                             <td width="100%" height="15" class="spacing">&nbsp;</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <!-- end of spacing -->
+                                    <!-- col 2 -->
+                                    <table width="130" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="130" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- Spacing -->
+                                                      <tr>
+                                                         <td width="100%" height="15" class="spacing">&nbsp;</td>
+                                                      </tr>
+                                                      <!-- Spacing -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    <!-- end of col 2 -->
+                                    <!-- spacing -->
+                                    <table width="1" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+                                       <tbody>
+                                          <tr>
+                                             <td width="100%" height="15" class="spacing">&nbsp;</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <!-- end of spacing -->
+                                    <!-- col 3 -->
+                                    <table width="224" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="224" align="right" border="0" cellpadding="10" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+
+                                                      <!-- content -->
+                                                      <tr>
+                                                      {{#with default}}
+                                                         {{#each sm}}
+                                                         <td  class="align-right" st-content="3col-content3">
+                                                            <img src="{{../url}}/{{network}}-icon.jpg" alt="{{network}}">
+                                                         </td>
+                                                         {{/each}}
+                                                      {{/with}}
+                                                      {{#if default.footerlogo}}
+                                                         <td  class="align-right" st-content="3col-content3">
+                                                            <img src="{{default.url}}/{{default.footerlogo}}" alt="{{default.footertitle}}">
+                                                         </td>
+                                                      {{/if}}
+                                                      </tr>
+                                                      <!-- end of content -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    </table>
+                                 </td>
+                                 <!-- spacing -->
+                                 <!-- end of spacing -->
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" class="footer">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="600" bgcolor="#262626" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <!-- col 1 -->
+                                    <table width="186" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="186" align="center" border="0" cellpadding="10" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- content -->
+                                                      <tr>
+                                                         <td  st-content="3col-content3">
+                                                           
+                                                         </td>
+                                                      </tr>
+                                                      <!-- end of content -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    <!-- spacing -->
+                                    <table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+                                       <tbody>
+                                          <tr>
+                                             <td width="100%" height="15" class="spacing">&nbsp;</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <!-- end of spacing -->
+                                    <!-- col 2 -->
+                                    <table width="186" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="186" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- Spacing -->
+                                                      <tr>
+                                                         <td width="100%" height="15" class="spacing">&nbsp;</td>
+                                                      </tr>
+                                                      <!-- Spacing -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    <!-- end of col 2 -->
+                                    <!-- spacing -->
+                                    <table width="1" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+                                       <tbody>
+                                          <tr>
+                                             <td width="100%" height="15" class="spacing">&nbsp;</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <!-- end of spacing -->
+                                    <!-- Social Media -->
+                                    <table width="186" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                       <tbody>
+                                          <tr>
+                                             <td>
+                                                <!-- start of text content table -->  
+                                                <table width="186" align="center" border="0" cellpadding="10" cellspacing="0" class="devicewidth">
+                                                   <tbody>
+                                                      <!-- end of title -->
+                                                      <!-- content -->
+                                                      <tr>
+                                                         <td  class="align-right" st-content="3col-content3">
+                                                         <!-- Social Media -->                                  
+                                                         </td>
+                                                      </tr>
+                                                      <!-- end of content -->
+                                                   </tbody>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <!-- end of text content table -->
+                                       </tbody>
+                                    </table>
+                                    </table>
+                                 </td>
+                                 <!-- spacing -->
+                                 <!-- end of spacing -->
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- end of 3 Columns -->
+<!-- Copyright -->
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="seperator">
+   <tbody>
+      <tr>
+         <td>
+            <table width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td>copyright</td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>

@@ -43,6 +43,7 @@ module.exports = function(grunt) {
             layoutdir: '<%= paths.src %>/layouts',
             partials: ['<%= paths.src %>/partials/**/*.hbs'],
             data: ['<%= paths.src %>/data/*.{json,yml}'],
+            helpers: '<%= paths.src %>/helper/**/*.js',
             flatten: true
           },
           pages: {

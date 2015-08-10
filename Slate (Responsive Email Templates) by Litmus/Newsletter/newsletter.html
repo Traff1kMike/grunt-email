@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A Responsive Email Template</title>
+<!--
+
+    An email present from your friends at Litmus (@litmusapp)
+
+    Email is surprisingly hard. While this has been thoroughly tested, your mileage may vary.
+    It's highly recommended that you test using a service like Litmus (http://litmus.com) and your own devices.
+
+    Enjoy!
+
+ -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+    /* iOS BLUE LINKS */
+    .appleBody a {color:#68440a; text-decoration: none;}
+    .appleFooter a {color:#999999; text-decoration: none;}
+#body_3442_0{margin: 0; padding: 0;}
+#div_3442_0{display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;}
+#div_3442_1{padding: 0px 15px 0px 15px;}
+#td_3442_0{padding: 20px 0px 30px 0px;}
+#img_3442_0{display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;}
+#td_3442_1{padding: 0 0 5px 0; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;}
+#span_3442_0{color: #666666; text-decoration: none;}
+#td_3442_2{padding: 70px 15px 70px 15px;}
+#img_3442_1{display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;}
+#td_3442_3{font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;}
+#td_3442_4{padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;}
+#td_3442_5{padding: 25px 0 0 0;}
+#a_3442_0{font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #256F9C; border-top: 15px solid #256F9C; border-bottom: 15px solid #256F9C; border-left: 25px solid #256F9C; border-right: 25px solid #256F9C; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;}
+#td_3442_6{padding: 70px 15px 70px 15px;}
+#td_3442_7{font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333;}
+#td_3442_8{padding: 20px 0 20px 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;}
+#td_3442_9{padding: 0;}
+#td_3442_10{padding: 20px 0 40px 0;}
+#img_3442_2{display: block; color: #666666; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 240px; height: 130px;}
+#td_3442_11{padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #333333; font-size: 20px;}
+#td_3442_12{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#td_3442_13{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#a_3442_1{color: #256F9C; text-decoration: none;}
+#td_3442_14{padding: 20px 0 40px 0;}
+#img_3442_3{display: block; color: #666666; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 240px; height: 130px;}
+#td_3442_15{padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #333333; font-size: 20px;}
+#td_3442_16{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#td_3442_17{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#a_3442_2{color: #256F9C; text-decoration: none;}
+#td_3442_18{padding: 0;}
+#td_3442_19{padding: 20px 0 40px 0;}
+#img_3442_4{display: block; color: #666666; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 240px; height: 130px;}
+#td_3442_20{padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #333333; font-size: 20px;}
+#td_3442_21{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#td_3442_22{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#a_3442_3{color: #256F9C; text-decoration: none;}
+#td_3442_23{padding: 20px 0 40px 0;}
+#img_3442_5{display: block; color: #666666; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 240px; height: 130px;}
+#td_3442_24{padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #333333; font-size: 20px;}
+#td_3442_25{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#td_3442_26{padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 14px; line-height: 20px;}
+#a_3442_4{color: #256F9C; text-decoration: none;}
+#td_3442_27{padding: 70px 15px 70px 15px;}
+#table_3442_0{padding:0 0 20px 0;}
+#td_3442_28{padding: 0 0 10px 0; font-size: 25px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;}
+#td_3442_29{padding: 40px 0 0 0;}
+#img_3442_6{display: block; font-family: Arial; color: #666666; font-size: 14px; width: 105px; height: 105px;}
+#td_3442_30{padding: 40px 0 0 0;}
+#td_3442_31{padding: 0 0 5px 25px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;}
+#td_3442_32{padding: 0 0 5px 25px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;}
+#td_3442_33{padding: 10px 0 15px 25px; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666;}
+#td_3442_34{padding:0 0 45px 25px;}
+#td_3442_35{padding: 0;}
+#a_3442_5{font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #256F9C; border-top: 10px solid #256F9C; border-bottom: 10px solid #256F9C; border-left: 20px solid #256F9C; border-right: 20px solid #256F9C; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;}
+#td_3442_36{padding: 40px 0 0 0;}
+#img_3442_7{display: block; font-family: Arial; color: #666666; font-size: 14px; width: 105px; height: 105px;}
+#td_3442_37{padding: 40px 0 0 0;}
+#td_3442_38{padding: 0 0 5px 25px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;}
+#td_3442_39{padding: 0 0 5px 25px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;}
+#td_3442_40{padding: 10px 0 15px 25px; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666;}
+#td_3442_41{padding:0 0 45px 25px;}
+#td_3442_42{padding: 0;}
+#a_3442_6{font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #256F9C; border-top: 10px solid #256F9C; border-bottom: 10px solid #256F9C; border-left: 20px solid #256F9C; border-right: 20px solid #256F9C; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;}
+#td_3442_43{padding: 40px 0 0 0;}
+#img_3442_8{display: block; font-family: Arial; color: #666666; font-size: 14px; width: 105px; height: 105px;}
+#td_3442_44{padding: 40px 0 0 0;}
+#td_3442_45{padding: 0 0 5px 25px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;}
+#td_3442_46{padding: 0 0 5px 25px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;}
+#td_3442_47{padding: 10px 0 15px 25px; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666;}
+#td_3442_48{padding:0 0 45px 25px;}
+#td_3442_49{padding: 0;}
+#a_3442_7{font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #256F9C; border-top: 10px solid #256F9C; border-bottom: 10px solid #256F9C; border-left: 20px solid #256F9C; border-right: 20px solid #256F9C; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;}
+#td_3442_50{padding: 20px 0px;}
+#td_3442_51{font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;}
+#span_3442_1{color:#666666;}
+#a_3442_8{color: #666666; text-decoration: none;}
+#span_3442_2{font-family: Arial, sans-serif; font-size: 12px; color: #444444;}
+#a_3442_9{color: #666666; text-decoration: none;}
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        table[class="wrapper"]{
+          width:100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        td[class="logo"]{
+          text-align: left;
+          padding: 20px 0 20px 0 !important;
+        }
+
+        td[class="logo"] img{
+          margin:0 auto!important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        td[class="mobile-hide"]{
+          display:none;}
+
+        img[class="mobile-hide"]{
+          display: none !important;
+        }
+
+        img[class="img-max"]{
+          max-width: 100% !important;
+          width: 100% !important;
+          height:auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        table[class="responsive-table"]{
+          width:100%!important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        td[class="padding"]{
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        td[class="padding-copy"]{
+          padding: 10px 5% 10px 5% !important;
+          text-align: center;
+        }
+
+        td[class="padding-meta"]{
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        td[class="no-pad"]{
+          padding: 0 0 20px 0 !important;
+        }
+
+        td[class="no-padding"]{
+          padding: 0 !important;
+        }
+
+        td[class="section-padding"]{
+          padding: 50px 15px 50px 15px !important;
+        }
+
+        td[class="section-padding-bottom-image"]{
+          padding: 50px 15px 0 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        td[class="mobile-wrapper"]{
+            padding: 10px 5% 15px 5% !important;
+        }
+
+        table[class="mobile-button-container"]{
+            margin:0 auto;
+            width:100% !important;
+        }
+
+        a[class="mobile-button"]{
+            width:80% !important;
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+        }
+
+    }
+</style>
+</head>
+<body id="body_3442_0">
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#333333">
+            <!-- HIDDEN PREHEADER TEXT -->
+            <div id="div_3442_0">
+                Entice the open with some amazing preheader text. Use a little mystery and get those subscribers to read through... 
+            </div>
+            <div align="center" id="div_3442_1">
+                <table border="0" cellpadding="0" cellspacing="0" width="500" class="wrapper">
+                    <!-- LOGO/PREHEADER TEXT -->
+                    <tr>
+                        <td id="td_3442_0" class="logo">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td bgcolor="#333333" width="100" align="left">
+                                        <a href="#" target="_blank">
+                                            <img alt="Logo" src="http://litmuswww.s3.amazonaws.com/template-bundle/img/logo-1.jpg" width="60" height="60" id="img_3442_0" border="0">
+                                        </a>
+                                    </td>
+                                    <td bgcolor="#333333" width="400" align="right" class="mobile-hide">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="right" id="td_3442_1"><span id="span_3442_0">A little text up top can be nice.<br>Maybe a link to tweet?</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" id="td_3442_2" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- HERO IMAGE -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="padding-copy">
+                                    <a href="#" target="_blank">
+                                        <img src="hero-1.jpg" width="500" height="400" border="0" alt="Insert alt text here" id="img_3442_1" class="img-max">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" id="td_3442_3" class="padding-copy">The Latest News</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" id="td_3442_4" class="padding-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <!-- BULLETPROOF BUTTON -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center" id="td_3442_5" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center"><a href="#" target="_blank" id="a_3442_0" class="mobile-button">Learn More &rarr;</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- TWO COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#F5F7FA" align="center" id="td_3442_6" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- TITLE SECTION AND COPY -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" id="td_3442_7" class="padding-copy">Around the Blog</td>
+                            </tr>
+                            <tr>
+                                <td align="center" id="td_3442_8" class="padding-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" id="td_3442_9" class="mobile-wrapper">
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td id="td_3442_10">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#F5F7FA" valign="middle"><a href="#" target="_blank"><img src="news-1.jpg" width="240" height="130" id="img_3442_2" alt="Fluid images" border="0" class="img-max"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_11" bgcolor="#F5F7FA">News Item</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_12" bgcolor="#F5F7FA"><span class="appleBody">Integer ut tempor lectus. Vivamus at gravida arcu.</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_13" bgcolor="#F5F7FA"><a href="#" id="a_3442_1">Read More &rarr;</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td id="td_3442_14">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#F5F7FA" valign="middle"><a href="#" target="_blank"><img src="news-2.jpg" width="240" height="130" id="img_3442_3" alt="alt text here" border="0" class="img-max"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_15" bgcolor="#F5F7FA">News Item</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_16" bgcolor="#F5F7FA"><span class="appleBody">Integer ut tempor lectus. Vivamus at gravida arcu.</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_17" bgcolor="#F5F7FA"><a href="#" id="a_3442_2">Read More &rarr;</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" id="td_3442_18" class="mobile-wrapper">
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td id="td_3442_19">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#F5F7FA" valign="middle"><a href="#" target="_blank"><img src="news-3.jpg" width="240" height="130" id="img_3442_4" alt="alt text here" border="0" class="img-max"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_20" bgcolor="#F5F7FA">News Item</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_21" bgcolor="#F5F7FA"><span class="appleBody">Integer ut tempor lectus. Vivamus at gravida arcu.</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_22" bgcolor="#F5F7FA"><a href="#" id="a_3442_3">Read More &rarr;</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td id="td_3442_23">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" bgcolor="#F5F7FA" valign="middle"><a href="#" target="_blank"><img src="news-4.jpg" width="240" height="130" id="img_3442_5" alt="alt text here" border="0" class="img-max"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_24" bgcolor="#F5F7FA">News Item</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_25" bgcolor="#F5F7FA"><span class="appleBody">Integer ut tempor lectus. Vivamus at gravida arcu.</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" id="td_3442_26" bgcolor="#F5F7FA"><a href="#" id="a_3442_4">Read More &rarr;</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- COMPACT ARTICLE SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#E6E9ED" align="center" id="td_3442_27" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" id="table_3442_0" class="responsive-table">
+                <!-- TITLE -->
+                <tr>
+                    <td align="center" id="td_3442_28" class="padding-copy" colspan="2">Upcoming Events</td>
+                </tr>
+                <tr>
+                    <td valign="top" id="td_3442_29" class="mobile-hide"><a href="#" target="_blank"><img src="calendar.png" alt="alt text here" width="105" height="105" border="0" id="img_3442_6"></a></td>
+                    <td id="td_3442_30" class="no-padding">
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" id="td_3442_31" class="padding-meta">January 1, 2016</td>
+                            </tr>
+                            <tr>
+                                <td align="left" id="td_3442_32" class="padding-copy">Etiam tincidunt, quam ac porttitor</td>
+                            </tr>
+                            <tr>
+                                 <td align="left" id="td_3442_33" class="padding-copy">Maecenas sed nulla massa. In mattis vulputate nisl, rhoncus blandit lorem maximus non. Phasellus tempus in ipsum non lacinia.</td>
+                            </tr>
+                            <tr>
+                                <td id="td_3442_34" align="left" class="padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center">
+                                                <!-- BULLETPROOF BUTTON -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center" id="td_3442_35" class="padding-copy">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                <tr>
+                                                                    <td align="center"><a href="#" target="_blank" id="a_3442_5" class="mobile-button">Learn More &rarr;</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" id="td_3442_36" class="mobile-hide"><a href="#" target="_blank"><img src="calendar.png" alt="alt text here" width="105" height="105" border="0" id="img_3442_7"></a></td>
+                    <td id="td_3442_37" class="no-padding">
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" id="td_3442_38" class="padding-meta">January 1, 2016</td>
+                            </tr>
+                            <tr>
+                                <td align="left" id="td_3442_39" class="padding-copy">Etiam tincidunt, quam ac porttitor</td>
+                            </tr>
+                            <tr>
+                                 <td align="left" id="td_3442_40" class="padding-copy">Maecenas sed nulla massa. In mattis vulputate nisl, rhoncus blandit lorem maximus non. Phasellus tempus in ipsum non lacinia.</td>
+                            </tr>
+                            <tr>
+                                <td id="td_3442_41" align="left" class="padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center">
+                                                <!-- BULLETPROOF BUTTON -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center" id="td_3442_42" class="padding-copy">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                <tr>
+                                                                    <td align="center"><a href="#" target="_blank" id="a_3442_6" class="mobile-button">Learn More &rarr;</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" id="td_3442_43" class="mobile-hide"><a href="#" target="_blank"><img src="calendar.png" alt="alt text here" width="105" height="105" border="0" id="img_3442_8"></a></td>
+                    <td id="td_3442_44" class="no-padding">
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" id="td_3442_45" class="padding-meta">January 1, 2016</td>
+                            </tr>
+                            <tr>
+                                <td align="left" id="td_3442_46" class="padding-copy">Etiam tincidunt, quam ac porttitor</td>
+                            </tr>
+                            <tr>
+                                 <td align="left" id="td_3442_47" class="padding-copy">Maecenas sed nulla massa. In mattis vulputate nisl, rhoncus blandit lorem maximus non. Phasellus tempus in ipsum non lacinia.</td>
+                            </tr>
+                            <tr>
+                                <td id="td_3442_48" align="left" class="padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center">
+                                                <!-- BULLETPROOF BUTTON -->
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                    <tr>
+                                                        <td align="center" id="td_3442_49" class="padding-copy">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                <tr>
+                                                                    <td align="center"><a href="#" target="_blank" id="a_3442_7" class="mobile-button">Learn More &rarr;</a></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" id="td_3442_50">
+            <!-- UNSUBSCRIBE COPY -->
+            <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                <tr>
+                    <td align="center" id="td_3442_51">
+                        <span class="appleFooter" id="span_3442_1">1234 Main Street, Anywhere, MA 01234, USA</span><br><a class="original-only" id="a_3442_8">Unsubscribe</a><span class="original-only" id="span_3442_2">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a id="a_3442_9">View this email in your browser</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

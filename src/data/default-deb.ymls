@@ -1,0 +1,119 @@
+prehead: "Deb McCool Newsletter July 2015"
+header_one: "Deb McCool Newsletter July 2015"
+url: "http://202.191.34.207/users/a/d/admin/debmccoolrealestate.co.nz/htdocs/new/email"
+harcourtsurl: "http://harcourts.co.nz/People/23776/Deb-McCool"
+email: "deb.mccool@harcourts.co.nz"
+
+# Images
+header: "header.png"
+soldphoto: "sold.jpg"
+latestimage: "latest-listing.png"
+sellingimage: "tos.png"
+footerlogo: "harcourts-logo.jpg"
+
+
+# Footer
+footertitle: "Contact Deb"
+businesshours: "09 477 0677"
+afterhours: "09 420 4792"
+mobile: "021 660 459"
+fax: "09 478 6129"
+
+# Social Media
+sm:  [
+{
+    network: "facebook",
+    url: "https://www.facebook.com/DebMcCoolRealEstate",
+    icon: ""
+},{
+    network: "linkedin",
+    url: "https://www.linkedin.com/pub/deb-mccool/38/b3a/916",
+    icon: ""
+}
+]
+
+
+
+# News Text
+news: [
+    {
+        title: "",
+        text: "Welcome to my first newsletter! With so many things that happened in July I’m not even sure where to begin!",
+        link: "" ,
+        image: ""
+    },
+    {
+        title: "About Me",
+        text: "Would you like to know more about me? Check out my new video here!",
+        link: "https://www.youtube.com/watch?v=NzYtrJBm5yg ",
+        image: ""
+    },
+    {
+        title: "Meet Maggie",
+        text: "I am thrilled to have Maggie Gao join my team as my new Sales Associate. Maggie has years of experience in both sales and marketing, fluency in English and Chinese and is a delight to have around!",
+        link: "",
+        image: "maggie.png"
+    },
+    {
+        title: "AUCTION!",
+        text: "The majority of homes I sell go for auction. There has been a huge rise in people choosing to auction there home over other options. Here are some great reasons why you should sell your home at auction;",
+        link: "#",
+        image: ""
+    }
+]
+
+
+# Sold Text
+soldtitle: "SOLD HOMES"
+soldtext: "Winter sure didn’t stop these properties from being sold! It was a very successful month in sales with very happy clients. Some of the sold homes included:"
+soldhomes: [
+    {
+        property: "2 MATISSE DR, WEST HARBOUR"
+    },
+    {
+        property: "87A PARK RISE, CAMPBELLS BAY"
+    },
+    {
+        property: "21 CHANNEL VIEW ROAD, CAMPBELLS BAY"
+    },
+    {
+        property: "386 EAST COAST ROAD, MAIRANGI BAY"
+    },
+    {
+        property: "5/1 PENZANCE ROAD, MAIRANGI BAY"
+    }
+]
+
+
+# Other Text
+othertext: [
+    {
+        title: "ACHIEVEMENTS",
+        text: "My smile says it all in this photo! I was awarded 3rd Top Sales Consultant in the Northern Region and 11th for the April – June quarter for the Northern Region. Extreme determination pays off!",
+        link: "" ,
+        image: "deb.png"
+    },
+    {
+        title: "",
+        text: "Harcourts was also awarded 'Most Trusted Brand' by Readers Digest New Zealand. It is the third time the real estate category has been voted on, and the third time Harcourts, New Zealand’s largest real estate company, has come out on top.",
+        link: "" ,
+        image: "deb-award.jpg"
+    }
+]
+
+listings: [
+    {
+        title: "Mairangi Bay, 342 Beach Rd",
+        price: "Auction",
+        text: "Location, style, sea views, easy care gardens - this property has it all. Nestled quietly up a ROW and built of weatherboard on a freehold title, this home has been well maintained and is beautifully presented. ",
+        link: "http://bit.ly/1GEbE5b",
+        image: "http://photos.harcourts.co.nz/V2/000/006/549/993-MAB9588-North-Shore-City.jpg"
+    },
+    {
+        title: "Murrays Bay, 482 Beach Rd",
+        price: "Auction",
+        text: "This home was lovingly crafted by the builder as his own home, to complement the unique and highly envied location adjacent to beautiful Murrays Bay Beach.",
+        link: "http://bit.ly/1IWmTOd",
+        image: "http://photos.harcourts.co.nz/V2/000/006/823/303-MAB9643-North-Shore-City.jpg"
+    }
+]

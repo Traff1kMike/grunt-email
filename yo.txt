@@ -1,0 +1,237 @@
+[4mRunning "sass:dist" (sass) task[24m
+
+[4mRunning "assemble:pages" (assemble) task[24m
+Assembling [36mdist/branded.html[39m [32mOK[39m
+Assembling [36mdist/deb.html[39m [32mOK[39m
+Assembling [36mdist/tdigital.html[39m [32mOK[39m
+Assembling [36mdist/traff1k.html[39m [32mOK[39m
+Assembling [36mdist/transaction.html[39m [32mOK[39m
+[32m>> [39m5 pages assembled.
+
+[4mRunning "premailer:html" (premailer) task[24m
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+margin-bottom CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+margin-top CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+text-align CSS property (SAFE) may not render properly in Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+text-transform CSS property (POOR) may not render properly in Notes 6, Eudora
+text-align CSS property (SAFE) may not render properly in Eudora
+margin-bottom CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+cursor CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora, Old GMail, New GMail
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+padding-bottom CSS property (POOR) may not render properly in Notes 6, Eudora
+font-style CSS property (SAFE) may not render properly in Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+text-align CSS property (SAFE) may not render properly in Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+text-align CSS property (SAFE) may not render properly in Eudora
+padding-right CSS property (POOR) may not render properly in Notes 6, Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+text-align CSS property (SAFE) may not render properly in Eudora
+margin-left CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+text-transform CSS property (POOR) may not render properly in Notes 6, Eudora
+letter-spacing CSS property (POOR) may not render properly in Notes 6, Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+
+[4mRunning "premailer:txt" (premailer) task[24m
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+margin-bottom CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+margin-top CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+text-align CSS property (SAFE) may not render properly in Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+text-transform CSS property (POOR) may not render properly in Notes 6, Eudora
+text-align CSS property (SAFE) may not render properly in Eudora
+margin-bottom CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+cursor CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora, Old GMail, New GMail
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+padding-bottom CSS property (POOR) may not render properly in Notes 6, Eudora
+font-style CSS property (SAFE) may not render properly in Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+text-align CSS property (SAFE) may not render properly in Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+text-align CSS property (SAFE) may not render properly in Eudora
+padding-right CSS property (POOR) may not render properly in Notes 6, Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+font-family CSS property (POOR) may not render properly in Eudora, Old GMail, New GMail
+font-size CSS property (SAFE) may not render properly in Eudora
+height CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail
+line-height CSS property (POOR) may not render properly in Notes 6, Eudora
+width CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+margin CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+padding CSS property (POOR) may not render properly in Notes 6, Eudora
+border-collapse CSS property (RISKY) may not render properly in Entourage 2004, Notes 6, Eudora
+vertical-align CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+color CSS property (SAFE) may not render properly in Eudora
+text-decoration CSS property (SAFE) may not render properly in Eudora
+font-weight CSS property (SAFE) may not render properly in Eudora
+display CSS property (POOR) may not render properly in Outlook 07, Eudora
+border CSS property (POOR) may not render properly in Notes 6, Eudora
+opacity CSS property (RISKY) may not render properly in Outlook 03, Outlook 07, Windows Mail, Entourage 2004, Notes 6, Eudora, New Yahoo, Old GMail, New GMail, Live Mail, Hotmail
+overflow CSS property (RISKY) may not render properly in Outlook 07, Entourage 2004, Notes 6, Eudora
+visibility CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora, Old GMail, New GMail, aolWeb
+text-align CSS property (SAFE) may not render properly in Eudora
+margin-left CSS property (RISKY) may not render properly in AOL 9, Notes 6, Eudora, Live Mail, Hotmail
+text-transform CSS property (POOR) may not render properly in Notes 6, Eudora
+letter-spacing CSS property (POOR) may not render properly in Notes 6, Eudora
+clear CSS property (RISKY) may not render properly in Outlook 07, Notes 6, Eudora
+
+[4mRunning "imagemin:dynamic" (imagemin) task[24m
+Minified 3 images (saved 82.36 kB)
+
+[4mRunning "replace:src_images" (replace) task[24m
+Replace dist/branded.html → dist/branded.html
+Replace dist/deb.html → dist/deb.html
+Replace dist/tdigital.html → dist/tdigital.html
+Replace dist/traff1k.html → dist/traff1k.html
+Replace dist/transaction.html → dist/transaction.html
+
+[32mDone, without errors.[39m

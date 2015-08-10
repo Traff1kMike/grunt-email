@@ -33,6 +33,31 @@
 .mb0 {
   margin-bottom: 0;
 }
+.ExternalClass {
+  width:100%;
+} 
+.location {
+  border-bottom:1px solid #fff;
+  &.left {
+    padding: 0 20px 5px 0;
+  }
+  &.right {
+    padding: 0 0 5px 20px;
+  }
+}
+ul {
+  padding:10px 0 0 0;
+}
+.spacing { font-size:1px; line-height:1px; mso-line-height-rule: exactly;}
+/* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, 
+.ExternalClass, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+} 
+/* Force Hotmail to display normal line spacing.*/
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+
+.image_fix {display:block;}
 
 // Preheader text is displayed in certain clients as a preview but not shown when the user opens the email
 .preheader {
